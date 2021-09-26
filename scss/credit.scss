@@ -1,0 +1,300 @@
+@import "variable";
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: $background-color1;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  header {
+    flex-direction: column;
+    display: flex;
+    background-color: $secondary_color;
+    min-height: 20rem;
+    nav {
+      @media (max-width: 991px) {
+        li {
+          a {
+            font-size: 1.3rem;
+          }
+        }
+      }
+      #toggle-btn {
+        border-color: $secondary_color;
+        span {
+          color: $primary_color;
+        }
+      }
+      #item-btn {
+        background-color: $primary_color;
+        color: white;
+        color: white;
+      }
+      li {
+        a {
+          color: white !important;
+        }
+      }
+      .item-img {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        @media (max-width:991px){
+            width: 20px;
+            height: 20px;
+        }
+
+      }
+      #profile {
+        gap: 20px;
+        @media (max-width:991px){
+            margin-top:4%;
+        }
+      }
+    }
+    h1 {
+      color: white;
+      display: flex;
+      margin-top: 5%;
+      margin-bottom: 7rem;
+      justify-content: center;
+    }
+  }
+
+  main {
+    #contents {
+      display: flex;
+      margin-top: 5%;
+      .content-left {
+        .description {
+          margin-top: 5em;
+          p {
+            margin-top: 1em;
+          }
+        }
+        .video-player {
+          border-radius: 2%;
+
+          height: 27.5rem;
+          background-color: $image_placeholder;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          a {
+            cursor: pointer;
+            height: 4rem;
+            width: 4rem;
+          }
+        }
+        .description {
+          margin-top: 5%;
+        }
+
+        .calculator{
+            background-color: white;
+            padding: 8%;
+            span{
+                opacity: 0.5;
+            }
+            input{
+                border-color: $primary_color;
+            }
+            .btn{
+                color:white;
+                background-color: $primary_color;
+            }
+        }
+      }
+      .content-right {
+        margin-top: 3%;
+
+        .cards {
+          display: grid;
+          gap: 1%;
+          > div {
+            border-radius: 2%;
+          }
+        }
+        .promo-card {
+          color: white;
+          height: 30rem;
+          background-color: $secondary_color;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          justify-content: space-evenly;
+          padding: 13%;
+        }
+        .contact-dealer {
+          background-color: white;
+          padding: 7%;
+          input{
+              border-color: $primary_color;
+          }
+          textarea{
+              border-color: $primary_color;
+          }
+          .btn{
+              background-color: $primary_color;
+              color: white;
+          }
+        }
+      }
+    }
+    #download {
+        margin-top: 4rem;
+      background-color: white;
+
+      padding-top: 15%;
+
+      .phone-img {
+        display: flex;
+        justify-content: center;
+        img {
+          margin-top: 15%;
+
+          @media (max-width: 991px) {
+            width: 50%;
+          }
+        }
+      }
+      .download-info {
+        margin-top: 10%;
+
+        ul {
+          @media (max-width: 991px) {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+
+          padding: 0;
+          list-style-type: none;
+          li {
+            margin-top: 15px;
+          }
+        }
+        .buttons {
+          @media (max-width: 991px) {
+            text-align: center;
+            > img {
+              margin: 2% 0;
+            }
+          }
+          img {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    #news-letter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8rem;
+
+      .subscribe-buttons {
+        display: flex;
+        margin-top: 5%;
+        #premium {
+          background-color: $primary_color;
+          color: white;
+        }
+        div {
+          button {
+            border-color: $primary_color;
+            margin-right: 1rem;
+            padding: 0.8rem;
+            color: $primary_color;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    margin-top: 10rem;
+
+    #footer {
+      padding: 3%;
+      background-color: $secondary_color;
+      min-height: 26rem;
+      .footer-content {
+        display: flex;
+        .section1 {
+          p {
+            color: white;
+            margin-top: 8%;
+          }
+        }
+        .section2 {
+          display: flex;
+
+          justify-content: center;
+          //align-items: end;
+          .menu {
+            display: flex;
+            flex-direction: column;
+
+            a {
+              margin-top: 10px;
+              color: white;
+              text-decoration: none;
+            }
+          }
+        }
+        .section3 {
+          display: flex;
+
+          justify-content: center;
+          //align-items: center;
+          .social-networks {
+            display: flex;
+            flex-direction: column;
+
+            a {
+              margin-top: 10px;
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+        .section4 {
+          @media (max-width: 991px) {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          div {
+            margin-top: 5%;
+          }
+          .address {
+            color: white;
+          }
+          .phone-number {
+            color: white;
+          }
+          .mail {
+            color: white;
+          }
+        }
+      }
+      h5 {
+        @media (max-width: 991px) {
+          display: flex;
+          justify-content: center;
+        }
+        color: white;
+        margin-top: 9%;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,500;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/customer.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <div id="navCustomer" class="header-nav">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <img src="image/homepageimages/02logo.png" alt="" />
+            <button
+              id="toggle-btn"
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-lg-5">
+                <li class="item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="item">
+                  <a class="nav-link" href="explore.html">Explore</a>
+                </li>
+                <li class="item dropdown">
+                  <a class="nav-link" href="detail.html">Showroom</a>
+                </li>
+                <li class="item">
+                  <a class="nav-link" href="credit.html">Credit Simulation</a>
+                </li>
+                <li class="item">
+                  <a class="nav-link" href="customer.html">Contact Us</a>
+                </li>
+                <li class="item">
+                  <a class="nav-link" href=""
+                    >Page <i class="fas fa-chevron-down"></i
+                  ></a>
+                </li>
+              </ul>
+              <div id="profile" class="d-flex">
+                <div class="item-img"></div>
+                <button id="item-btn" class="btn" type="submit">
+                  Add Your Item
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 col-12">
+            <div class="profile d-flex">
+              <div class="img"></div>
+              <div class="info">
+                <h1>David Yates</h1>
+                <span>Customer Advisor</span>
+                <div class="phone-number">
+                  <img src="icons/homepageicons/Phonephone.svg" alt="" />
+                  <span>(+1) 923 2341 22</span>
+                </div>
+                <div class="mail">
+                  <img src="icons/homepageicons/Mailmail.svg" alt="" />
+                  <span>contact@tanahairstudio.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+          <div class="col-lg-7 col-12">
+            <form>
+              <label style="color: white; padding-bottom: 2%" for="name"
+                >Full Name</label
+              >
+              <input
+                style="padding: 2%"
+                id="name"
+                type="text"
+                class="form-control"
+                placeholder="Input Your Full Name"
+                required
+              /><br />
+              <label style="color: white; padding-bottom: 2%" for="email"
+                >Email Address</label
+              >
+              <input
+                style="padding: 2%"
+                id="email"
+                type="email"
+                class="form-control"
+                placeholder="Input Your Email Address"
+                required
+              /><br />
+              <label style="color: white; padding-bottom: 2%" for="Mesage"
+                >Your Messages</label
+              >
+              <textarea
+                class="form-control"
+                name="message"
+                id="message"
+                cols="20"
+                rows="6"
+                placeholder="Your Mesage"
+                required
+              ></textarea>
+              <button class="btn btn-outline-light">Send Messages</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Header End -->
+
+    <main>
+      <div class="container">
+        <section id="recomendation">
+          <h1>Our Collection</h1>
+          <div class="row gx-2 gy-2 mt-5">
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+            <div id="items" class="col-lg-3 col-6">
+              <div id="new-item">
+                <img
+                  src="image/homepageimages/Misc/Tagnew-image.png"
+                  alt=""
+                  style="padding: 5%"
+                />
+                <div class="info">
+                  <h1>Model SV</h1>
+                  <p>Esmeka Car</p>
+                  <h1 class="cost">$1200</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="news-letter">
+          <h1>Subscribe Our News Letter</h1>
+          <p style="opacity: 0.5; font-size: 14px">
+            You can read our news letter and get free knowledge
+          </p>
+          <div class="form">
+            <div class="name">
+              <p>Your Name</p>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Input Your Name"
+                size="30"
+              />
+            </div>
+            <div class="email">
+              <p>Your Email</p>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Input Your Email"
+                size="30"
+              />
+            </div>
+            <div class="button">
+              <button class="btn">Subscribe</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <section id="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="row">
+              <div class="col-12 col-lg-3 section1">
+                <img src="image/homepageimages/02logo.png" alt="logo" />
+                <p>
+                  OurStudio is a digital agency UI / UX Design and Website
+                  Development located in Ohio, United States of America
+                </p>
+              </div>
+              <div class="col-6 col-lg-3 section2">
+                <div class="menu">
+                  <a style="font-size: 20px" href="">Company</a>
+                  <a href=""> Home</a>
+                  <a href="">Showroom</a>
+                  <a href="">FAQ</a>
+                  <a href="">Blog</a>
+                  <a href="">Contact Us</a>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3 section3">
+                <div class="social-networks">
+                  <a style="font-size: 20px" href="">Social</a>
+                  <a href="">Facebook</a>
+                  <a href="">Instagram</a>
+                  <a href="">Youtube</a>
+                  <a href="">Twitter</a>
+                  <a href="">Linkedin</a>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 section4">
+                <div class="address">
+                  <img src="icons/homepageicons/Grouppointer.svg" alt="" />
+                  <span>221 B Santa Monica, Los Angeles</span>
+                </div>
+                <div class="phone-number">
+                  <img src="icons/homepageicons/Phonephone.svg" alt="" />
+                  <span>(+1) 923 2341 22</span>
+                </div>
+                <div class="mail">
+                  <img src="icons/homepageicons/Mailmail.svg" alt="" />
+                  <span>contact@tanahairstudio.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5>Copyright Tanah Air Studio</h5>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Footer End -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

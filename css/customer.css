@@ -1,0 +1,307 @@
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #F7F7FC;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body header {
+  position: relative;
+}
+
+body header #navCustomer {
+  position: absolute;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  body header #navCustomer {
+    position: relative;
+    background-color: #fa3c45;
+  }
+}
+
+body header #navCustomer nav #toggle-btn {
+  border-color: #F04461;
+}
+
+body header #navCustomer nav #toggle-btn span {
+  color: #F04461;
+}
+
+body header #navCustomer nav #item-btn {
+  background-color: #F04461;
+  color: white;
+  color: white;
+}
+
+body header #navCustomer nav li a {
+  color: white !important;
+}
+
+body header #navCustomer nav #profile {
+  gap: 20px;
+}
+
+body header #navCustomer nav .item-img {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+body header .col-lg-5 {
+  padding: 9% 4%;
+  background-color: #fa3c45;
+  min-height: 25rem;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  body header .col-lg-5 {
+    padding: 9% 0;
+  }
+}
+
+body header .col-lg-5 .profile {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header .col-lg-5 .profile .img {
+  background-color: #E2E2EA;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+body header .col-lg-5 .profile .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .col-lg-5 .lorem {
+  padding-top: 5%;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  body header .col-lg-5 .lorem {
+    padding: 6%;
+  }
+}
+
+body header .col-lg-7 {
+  padding: 9% 5%;
+  background-color: #C5010A;
+  min-height: 25rem;
+}
+
+body header .col-lg-7 form button {
+  margin-top: 2%;
+}
+
+body main #recomendation {
+  margin-top: 17%;
+}
+
+body main #recomendation .row #new-item {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#000000));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+  border-radius: 2%;
+}
+
+body main #recomendation .row #new-item .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 75%;
+  color: #FFFFFF;
+}
+
+body main #recomendation .row #new-item .info .cost {
+  color: #F04461;
+}
+
+body main #news-letter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8rem;
+}
+
+body main #news-letter .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+}
+
+body main #news-letter .form div {
+  margin-right: 2%;
+}
+
+body main #news-letter .form .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+body main #news-letter .form .button button {
+  background-color: #F04461;
+  color: white;
+}
+
+body footer {
+  margin-top: 10rem;
+}
+
+body footer #footer {
+  padding: 3%;
+  background-color: #C5010A;
+  min-height: 26rem;
+}
+
+body footer #footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer #footer .footer-content .section1 p {
+  color: white;
+  margin-top: 8%;
+}
+
+body footer #footer .footer-content .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer #footer .footer-content .section2 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer #footer .footer-content .section2 .menu a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+body footer #footer .footer-content .section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer #footer .footer-content .section3 .social-networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer #footer .footer-content .section3 .social-networks a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  body footer #footer .footer-content .section4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body footer #footer .footer-content .section4 div {
+  margin-top: 5%;
+}
+
+body footer #footer .footer-content .section4 .address {
+  color: white;
+}
+
+body footer #footer .footer-content .section4 .phone-number {
+  color: white;
+}
+
+body footer #footer .footer-content .section4 .mail {
+  color: white;
+}
+
+body footer #footer h5 {
+  color: white;
+  margin-top: 9%;
+}
+
+@media (max-width: 991px) {
+  body footer #footer h5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}

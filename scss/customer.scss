@@ -1,0 +1,226 @@
+@import "variable";
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: $background-color1;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  header {
+    
+    position: relative;
+
+    #navCustomer{
+      position: absolute;
+      @media (max-width: 991px){
+        position: relative;
+        background-color: #fa3c45;
+      }
+      width: 100%;
+      nav{
+
+        #toggle-btn{
+          border-color: $primary_color;
+          span{
+              color: $primary_color;
+          }
+        }
+        #item-btn{
+          background-color: $primary_color;
+          color: white;
+          color: white;
+        }
+        li{
+          a{
+          color: white !important
+  
+          }
+        }
+        #profile{
+          gap: 20px;
+        }
+        .item-img{
+          background-color: white;
+          width:40px;
+          height: 40px;
+          border-radius: 50%;
+  
+        }
+      }
+    }
+
+    .col-lg-5 {
+      padding: 9% 4%;
+      @media (max-width: 991px) {
+        padding: 9% 0;
+      }
+      background-color: #fa3c45;
+      min-height: 25rem;
+      color: white;
+
+      .profile {
+        justify-content: space-around;
+
+        .img {
+          background-color: $image_placeholder;
+          width: 6rem;
+          height: 6rem;
+          border-radius: 50%;
+        }
+        .info {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+      .lorem {
+        padding-top: 5%;
+        text-align: center;
+        @media (max-width: 991px) {
+          padding: 6%;
+        }
+      }
+    }
+    .col-lg-7 {
+      padding: 9% 5%;
+      background-color: $secondary_color;
+      min-height: 25rem;
+      form {
+        button {
+          margin-top: 2%;
+        }
+      }
+    }
+  }
+
+  main {
+    #recomendation {
+      margin-top: 17%;
+      @media (max-width: 900px) {
+      }
+      .row {
+        #new-item {
+          background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            #000000 100%
+          );
+          border-radius: 2%;
+
+          .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 75%;
+            color: $text-color;
+            .cost {
+              color: $primary_color;
+            }
+          }
+        }
+      }
+    }
+    #news-letter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8rem;
+      .form {
+        display: flex;
+        margin-top: 5%;
+        div {
+          margin-right: 2%;
+        }
+        .button {
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          button {
+            background-color: $primary_color;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    margin-top: 10rem;
+
+    #footer {
+      padding: 3%;
+      background-color: $secondary_color;
+      min-height: 26rem;
+      .footer-content {
+        display: flex;
+        .section1 {
+          p {
+            color: white;
+            margin-top: 8%;
+          }
+        }
+        .section2 {
+          display: flex;
+
+          justify-content: center;
+          //align-items: end;
+          .menu {
+            display: flex;
+            flex-direction: column;
+
+            a {
+              margin-top: 10px;
+              color: white;
+              text-decoration: none;
+            }
+          }
+        }
+        .section3 {
+          display: flex;
+
+          justify-content: center;
+          //align-items: center;
+          .social-networks {
+            display: flex;
+            flex-direction: column;
+
+            a {
+              margin-top: 10px;
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+        .section4 {
+          @media (max-width: 991px) {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          div {
+            margin-top: 5%;
+          }
+          .address {
+            color: white;
+          }
+          .phone-number {
+            color: white;
+          }
+          .mail {
+            color: white;
+          }
+        }
+      }
+      h5 {
+        @media (max-width: 991px) {
+          display: flex;
+          justify-content: center;
+        }
+        color: white;
+        margin-top: 9%;
+      }
+    }
+  }
+}

@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,500;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <img src="image/homepageimages/02logo.png" alt="" />
+            <button
+              id="toggle-btn"
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-lg-5">
+                <li class="item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="item">
+                  <a class="nav-link" href="explore.html">Explore</a>
+                </li>
+                <li class="item dropdown">
+                  <a class="nav-link" href="detail.html">Showroom</a>
+                </li>
+                <li class="item">
+                  <a class="nav-link" href="credit.html">Credit Simulation</a>
+                </li>
+                <li class="item">
+                  <a class="nav-link" href="customer.html">Contact Us</a>
+                </li>
+                <li class="item">
+                  <a class="nav-link" href=""
+                    >Page <i class="fas fa-chevron-down"></i
+                  ></a>
+                </li>
+              </ul>
+              <div id="profile" class="d-flex ">
+                <div class="item-img"></div>
+                <button id="item-btn" class="btn" type="submit">
+                  Add Your Item
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <div class="header-info">
+              <h5>Esmeka Car</h5>
+              <h1>Model SV</h1>
+              <div class="about col-md-6 mt-5">
+                <div class="mileage">
+                  <p>Mileage</p>
+                  <p class="about__numbers">555</p>
+                </div>
+                <div class="engine">
+                  <p>Engine</p>
+                  <p class="about__numbers">2000</p>
+                </div>
+                <div class="fuel">
+                  <p>Fuel Economy</p>
+                  <p class="about__numbers">8</p>
+                </div>
+              </div>
+              <button class="btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Header end -->
+
+    <section class="select">
+      <div class="container select">
+        <div class="select__box1">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Brand</option>
+            <option value="1">BMW</option>
+            <option value="2">Audi</option>
+            <option value="3">Mercedes</option>
+            <option value="3">Uaz</option>
+          </select>
+        </div>
+        <div class="select__box2">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Model</option>
+          </select>
+        </div>
+        <button class="btn">Search</button>
+      </div>
+    </section>
+
+    <!-- main Start -->
+
+    <main>
+      <div class="container">
+        <section id="collection">
+          <div class="text-part">
+            <div class="collection">
+              <div class="col-md-6">
+                <h1>Our Collection</h1>
+              </div>
+              <div class="col-md-6 collection__slide-arrows">
+                <img src="icons/homepageicons/Buttonleft-arrow.svg" alt="#" />
+                <img src="icons/homepageicons/Buttonright-arrow.svg" alt="#" />
+              </div>
+            </div>
+          </div>
+          <div class="collection__items">
+            <div class="item1">
+              <div>
+                <p>Esemka Car</p>
+                <h1 style="color: white">Model SX</h1>
+                <div class="item1__info">
+                  <p>2000</p>
+                  <p>Electric</p>
+                  <p>Automatic</p>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="item2"></div>
+            <div class="item3"></div>
+            <div class="item4"></div>
+            <div class="item5"></div>
+          </div>
+
+          <div class="sell-experience">
+            <div class="col-md-6">
+              <div class="sell_item"></div>
+            </div>
+            <div class="col-md-6 text-content">
+              <h1>Over 10 Years</h1>
+              <h1>Experiences</h1>
+              <h1>We Sell Electric Cars</h1>
+              <p style="opacity: 0.3">
+                Develop a website by finding a product identity that has value
+                and branding to become a characteristic of a company.
+              </p>
+              <div class="sell_info">
+                <div class="cars_sold">
+                  <h1>1000+</h1>
+                  <p>cars sold</p>
+                </div>
+                <div class="customers">
+                  <h1>235</h1>
+                  <p>Customers</p>
+                </div>
+                <div class="reviews">
+                  <h1>1100</h1>
+                  <p>Dealer Reviews</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section id="features">
+        <div class="container">
+          <div class="row gx-lg-5 gy-5">
+            <div class="col-lg-6 features_content">
+              <h1 style="text-decoration: bold">Why Choose Us?</h1>
+              <p style="margin-top: 5%">
+                We will help a client's problems to develop the products they
+                have with high quality
+              </p>
+
+              <div class="item1">
+                <div class="years_icon"></div>
+                <div class="years_text" style="margin-left: 6%">
+                  <h6>More than 10 Years Experience</h6>
+                  <p>
+                    Make the appearance of a mobile application that has quality
+                    and increases user convenience
+                  </p>
+                </div>
+              </div>
+              <div class="item2">
+                <div class="customers_icon"></div>
+                <div class="customers_text" style="margin-left: 6%">
+                  <h6>Trusted By Customers</h6>
+                  <p>
+                    Help create a website and redesign it so that it becomes a
+                    website that is more trendy and looks fresh.
+                  </p>
+                </div>
+              </div>
+              <div class="item3">
+                <div class="brand_icon"></div>
+                <div class="brand_text" style="margin-left: 6%">
+                  <h6>Wide Range of Brand</h6>
+                  <p>
+                    Create customizable illustrations with attractive designs
+                    that are made visually through high creativity
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="features_item"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="clients">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Our Top Brands</h3>
+            </div>
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-lg-2 col-md-4 col-6">
+                  <img src="image/homepageimages/Brand/client1.png" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                  <img src="image/homepageimages/Brand/client2.png" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                  <img src="image/homepageimages/Brand/logo 3client3.png" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                  <img src="image/homepageimages/Brand/logo 5client5.png" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                  <img src="image/homepageimages/Brand/logo 4client3.png" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                  <img src="image/homepageimages/Brand/logo 6client6.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <section id="new-items">
+          <div id="new-items__text">
+            <h1>New Items</h1>
+          </div>
+          <div id="new-items__box">
+            <div class="row">
+              <div class="col-md-6 item1">
+                <div id="new-item1">
+                  <img
+                    src="image/homepageimages/Misc/Tagnew-image.png"
+                    alt=""
+                    style="padding: 5%"
+                  />
+                  <div class="info">
+                    <h1>Model SV</h1>
+                    <p>Esmeka Car</p>
+                    <h1 class="cost">$1200</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 another-items">
+                <div id="overlapRow">
+                  <div class="rightBar">
+                    <div id="new-item2">
+                      <div class="new-icon">
+                        <img
+                          src="image/homepageimages/Misc/Tagnew-image.png"
+                          alt=""
+                          style="padding: 5%"
+                        />
+                      </div>
+                      <div class="info">
+                        <h4>Model SV</h4>
+                        <p>Esmeka Car</p>
+                        <h3>$1200</h3>
+                      </div>
+                    </div>
+                    <div id="new-item3">
+                      <div class="new-icon">
+                        <img
+                          src="image/homepageimages/Misc/Tagnew-image.png"
+                          alt=""
+                          style="padding: 5%"
+                        />
+                      </div>
+                      <div class="info">
+                        <h4>Model SV</h4>
+                        <p>Esmeka Car</p>
+                        <h3>$1200</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rightBar">
+                    <div id="new-item4">
+                      <div class="icon">
+                        <img
+                          src="image/homepageimages/Misc/Tagnew-image.png"
+                          alt=""
+                          style="padding: 5%"
+                        />
+                      </div>
+                      <div class="info">
+                        <h4>Model SV</h4>
+                        <p>Esmeka Car</p>
+                        <h3>$1200</h3>
+                      </div>
+                    </div>
+                    <div id="new-item5">
+                      <div class="icon">
+                        <img
+                          src="image/homepageimages/Misc/Tagnew-image.png"
+                          alt=""
+                          style="padding: 5%"
+                        />
+                      </div>
+                      <div class="info">
+                        <h4>Model SV</h4>
+                        <p>Esmeka Car</p>
+                        <h3>$1200</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="reviews">
+          <div id="reviews__text">
+            <h1>
+              What Are People <br />
+              Saying About Us
+            </h1>
+            <p
+              style="
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: normal;
+                opacity: 0.5;
+                margin-top: 3%;
+              "
+            >
+              Enter your select domain name and choose any extension name in the
+              next step (choose between .com, .online, .tech, .site, .net, and
+              more)
+            </p>
+          </div>
+          <div id="reviews__card justify-content-center">
+            <div class="row">
+              <div class="col-md-5 col-12">
+                <div class="slider">
+                  <div class="owl-carousel">
+                    <div>
+                      <img src="https://picsum.photos/id/236/500/500" />
+                    </div>
+                    <div>
+                      <img src="https://picsum.photos/id/237/500/500" />
+                    </div>
+                    <div>
+                      <img src="https://picsum.photos/id/238/500/500" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 col-12" style="background-color: white">
+                <div class="card-info" style="padding: 10%">
+                  <h3>AutoWeb Helps me to find</h3>
+                  <h3>the best car</h3>
+                  <p style="opacity: 0.5; font-size: 14px">
+                    I am very happy with the services provided, it is very
+                    helpful, starting from the insight that the company gave
+                    from the start that I did not understand what it was so I
+                    got knowledge and made my website look better.
+                  </p>
+                  <p class="name">Clay Johnson</p>
+                  <p style="opacity: 0.5">Director at Wax Inc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section id="download">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 phone-img">
+              <img
+                src="image/homepageimages/Iphone/iPhone 11 Pro Wireframephone.png"
+                alt="#"
+              />
+            </div>
+            <div class="col-12 col-lg-6 download-info">
+              <div class="download-text">
+                <h1>Download Our App</h1>
+                <p style="font-size: 13px; opacity: 0.5; padding: 2% 0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <ul>
+                  <li>
+                    <img
+                      src="icons/homepageicons/Checkmark Circlecheck-mark.svg"
+                      alt="#"
+                    />
+                    Best Deals
+                  </li>
+                  <li>
+                    <img
+                      src="icons/homepageicons/Checkmark Circlecheck-mark.svg"
+                      alt="#"
+                    />
+                    Sell Your Car
+                  </li>
+                  <li>
+                    <img
+                      src="icons/homepageicons/Checkmark Circlecheck-mark.svg"
+                      alt="#"
+                    />
+                    Showroom Events
+                  </li>
+                  <li>
+                    <img
+                      src="icons/homepageicons/Checkmark Circlecheck-mark.svg"
+                      alt="#"
+                    />
+                    Car Dealer
+                  </li>
+                  <li>
+                    <img
+                      src="icons/homepageicons/Checkmark Circlecheck-mark.svg"
+                      alt="#"
+                    />
+                    Compare Prices
+                  </li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <img
+                  src="icons/homepageicons/appstoreappstore.svg"
+                  class=""
+                  alt="#"
+                />
+                <img
+                  src="icons/homepageicons/googlestoregoogleplay.svg"
+                  class="btn"
+                  alt="#"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <section id="news-letter">
+          <h1>Subscribe Our News Letter</h1>
+          <p style="opacity: 0.5; font-size: 14px">
+            You can read our news letter and get free knowledge
+          </p>
+          <div class="form">
+            <div class="name">
+              <p>Your Name</p>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Input Your Name"
+                size="30"
+              />
+            </div>
+            <div class="email">
+              <p>Your Email</p>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Input Your Email"
+                size="30"
+              />
+            </div>
+            <div class="button">
+              <button class="btn">Subscribe</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- main End -->
+
+    <!-- Footer Start -->
+
+    <footer>
+      <section id="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="row">
+              <div class="col-12 col-lg-3 section1">
+                <img src="image/homepageimages/02logo.png" alt="logo" />
+                <p>
+                  OurStudio is a digital agency UI / UX Design and Website
+                  Development located in Ohio, United States of America
+                </p>
+              </div>
+              <div class="col-6 col-lg-3 section2">
+                <div class="menu">
+                  <a style="font-size: 20px" href="">Company</a>
+                  <a href=""> Home</a>
+                  <a href="">Showroom</a>
+                  <a href="">FAQ</a>
+                  <a href="">Blog</a>
+                  <a href="">Contact Us</a>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3 section3">
+                <div class="social-networks">
+                  <a style="font-size: 20px" href="">Social</a>
+                  <a href="">Facebook</a>
+                  <a href="">Instagram</a>
+                  <a href="">Youtube</a>
+                  <a href="">Twitter</a>
+                  <a href="">Linkedin</a>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 section4">
+                <div class="address">
+                  <img src="icons/homepageicons/Grouppointer.svg" alt="" />
+                  <span>221 B Santa Monica, Los Angeles</span>
+                </div>
+                <div class="phone-number">
+                  <img src="icons/homepageicons/Phonephone.svg" alt="" />
+                  <span>(+1) 923 2341 22</span>
+                </div>
+                <div class="mail">
+                  <img src="icons/homepageicons/Mailmail.svg" alt="" />
+                  <span>contact@tanahairstudio.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5>Copyright Tanah Air Studio</h5>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Footer End -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

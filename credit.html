@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,500;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
+
+    <link rel="stylesheet" href="css/credit.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <img src="image/homepageimages/02logo.png" alt="" />
+            <button
+              id="toggle-btn"
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-lg-5">
+                <li class="item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="item">
+                  <a class="nav-link" href="explore.html">Explore</a>
+                </li>
+                <li class="item dropdown">
+                  <a class="nav-link" href="detail.html">Showroom</a>
+                </li>
+                <li class="item">
+                  <a class="nav-link" href="credit.html">Credit Simulation</a>
+                </li>
+                <li class="item">
+                  <a class="nav-link" href="customer.html">Contact Us</a>
+                </li>
+                <li class="item">
+                  <a class="nav-link" href=""
+                    >Page <i class="fas fa-chevron-down"></i
+                  ></a>
+                </li>
+              </ul>
+              <div id="profile" class="d-flex">
+                <div class="item-img"></div>
+                <button id="item-btn" class="btn" type="submit">
+                  Add Your Item
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <h1>Credit Simulation</h1>
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Main start  -->
+    <main>
+      <div class="container">
+        <section id="contents" class="d-flex justify-content-around">
+          <div class="row">
+            <div class="col-lg-9 content-left">
+              <p>Home > Credit Simulation</p>
+              <div style="width: 100%" class="video-player col-lg-10">
+                <a id="video-player" href="https://www.youtube.com/watch?v=Uiv4t2_dNsI&ab_channel=JossChaalan">
+                <img  src="icons/Play Circleplaybutton.svg" alt=""/>
+                </a>
+              </div>
+              <div class="description">
+                <h1>Description</h1>
+                <p style="opacity: 0.5; font-size: 12px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+              </div>
+
+              <div class="row calculator mt-5">
+                <div class="col-lg-12">
+                  <h1>Loan Calculator</h1>
+                </div>
+                <div class="col-lg-12">
+                  <span
+                    >What a brand new resource, You can try our resource and
+                    explore how it works</span
+                  >
+                </div>
+
+                <form id="credit-form" class="row mt-5" >
+                  <div class="col-lg-12">
+                    <label for="car-price">Car Price ($)</label>
+                    <input
+                      type="text"
+                      name="price"
+                      id="car_price"
+                      class="form-control mt-3"
+
+                    />
+                  </div>
+                  <div class="col-lg-6 mt-4">
+                    <label for="interest">Interest Rate %</label>
+                    <input
+                      type="text"
+                      name="rate"
+                      id="interest"
+                      class="form-control mt-3"
+
+                    />
+                  </div>
+                  <div class="col-lg-6 mt-4">
+                    <label for="month">Periode Month</label>
+                    <input
+                      type="text"
+                      name="month"
+                      id="month"
+                      class="form-control mt-3"
+
+                    />
+                  </div>
+                  <div class="col-lg-12 mt-4">
+                    <label for="payment">Down Payment($)</label>
+                    <input
+                      type="text"
+                      name="down"
+                      id="payment"
+                      class="form-control mt-3"
+
+                    />
+                  </div>
+                  <div class="col-lg-12 mt-5">
+                    <input type="submit" class="btn" value="Calculate" />
+                  </div>
+                </form>
+                <div class="alert alert-danger d-none mt-3" role="alert">
+                    Zehmet olmasa duzgun reqem daxil edin 
+                </div>
+                <div class="col-lg-12 mt-5">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Mothly Payment</th>
+                            <th scope="col">Reminder</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          
+                        </tbody>
+                      </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 content-right">
+              <div class="cards">
+                <div class="promo-card">
+                  <h1>Special Offer for Today</h1>
+                  <h4>10% Off for New Tesla Model S</h4>
+                  <button class="btn btn-outline-light">Details</button>
+                </div>
+                <div class="contact-dealer">
+                  <h2>Contact Dealer</h2>
+                  <form class="row">
+                    <div class="col-lg-12 mt-4">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="col-lg-12 mt-4">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                    <div class="col-lg-12 mt-4">
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        id="message"
+                        rows="6"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="col-lg-12 mt-4">
+                      <input type="submit" class="btn" value="Send Messages" />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section id="download">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 phone-img">
+              <img
+                src="image/homepageimages/Iphone/iPhone 11 Pro Wireframephone.png"
+                alt="#"
+              />
+            </div>
+            <div class="col-12 col-lg-6 download-info">
+              <div class="download-text">
+                <h1>Download Our App</h1>
+                <p style="font-size: 13px; opacity: 0.5; padding: 2% 0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <ul>
+                  <li>
+                    <img
+                      src="icons/homepageicons/Checkmark Circlecheck-mark.svg"
+                      alt="#"
+                    />
+                    Best Deals
+                  </li>
+                  <li>
+                    <img
+                      src="icons/homepageicons/Checkmark Circlecheck-mark.svg"
+                      alt="#"
+                    />
+                    Sell Your Car
+                  </li>
+                  <li>
+                    <img
+                      src="icons/homepageicons/Checkmark Circlecheck-mark.svg"
+                      alt="#"
+                    />
+                    Showroom Events
+                  </li>
+                  <li>
+                    <img
+                      src="icons/homepageicons/Checkmark Circlecheck-mark.svg"
+                      alt="#"
+                    />
+                    Car Dealer
+                  </li>
+                  <li>
+                    <img
+                      src="icons/homepageicons/Checkmark Circlecheck-mark.svg"
+                      alt="#"
+                    />
+                    Compare Prices
+                  </li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <img
+                  src="icons/homepageicons/appstoreappstore.svg"
+                  class=""
+                  alt="#"
+                />
+                <img
+                  src="icons/homepageicons/googlestoregoogleplay.svg"
+                  class="btn"
+                  alt="#"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <section id="news-letter">
+          <h1>Wanna try our resource?</h1>
+          <p style="opacity: 0.5; font-size: 14px">
+            What a brand new resource, You can try our resource and explore how
+            it works
+          </p>
+          <div class="subscribe-buttons">
+            <div class="premium">
+              <button id="premium" class="btn">Premium Resource</button>
+            </div>
+            <div class="ree">
+              <button class="btn btn-outline">Free Resource</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- main End -->
+
+    <!-- Footer Start -->
+
+    <footer>
+      <section id="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="row">
+              <div class="col-12 col-lg-3 section1">
+                <img src="image/homepageimages/02logo.png" alt="logo" />
+                <p>
+                  OurStudio is a digital agency UI / UX Design and Website
+                  Development located in Ohio, United States of America
+                </p>
+              </div>
+              <div class="col-6 col-lg-3 section2">
+                <div class="menu">
+                  <a style="font-size: 20px" href="">Company</a>
+                  <a href="index.html">Home</a>
+                  <a href="detail.html">Showroom</a>
+                  <a href="credit.html">FAQ</a>
+                  <a href="#">Blog</a>
+                  <a href="customer.html">Contact Us</a>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3 section3">
+                <div class="social-networks">
+                  <a style="font-size: 20px" href="">Social</a>
+                  <a href="">Facebook</a>
+                  <a href="">Instagram</a>
+                  <a href="">Youtube</a>
+                  <a href="">Twitter</a>
+                  <a href="">Linkedin</a>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 section4">
+                <div class="address">
+                  <img src="icons/homepageicons/Grouppointer.svg" alt="" />
+                  <span>221 B Santa Monica, Los Angeles</span>
+                </div>
+                <div class="phone-number">
+                  <img src="icons/homepageicons/Phonephone.svg" alt="" />
+                  <span>(+1) 923 2341 22</span>
+                </div>
+                <div class="mail">
+                  <img src="icons/homepageicons/Mailmail.svg" alt="" />
+                  <span>contact@tanahairstudio.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5>Copyright Tanah Air Studio</h5>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Footer End -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script src="js/credit.js"></script>
+  </body>
+</html>

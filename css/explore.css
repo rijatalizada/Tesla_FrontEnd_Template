@@ -1,0 +1,375 @@
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #F7F7FC;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body header {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #C5010A;
+  min-height: 20rem;
+}
+
+@media (max-width: 991px) {
+  body header nav li a {
+    font-size: 1.5rem;
+  }
+}
+
+body header nav #toggle-btn {
+  border-color: #C5010A;
+}
+
+body header nav #toggle-btn span {
+  color: #F04461;
+}
+
+body header nav #item-btn {
+  background-color: #F04461;
+  color: white;
+  color: white;
+}
+
+body header nav li a {
+  color: white !important;
+}
+
+body header nav .item-img {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+body header nav #profile {
+  gap: 20px;
+}
+
+body header h1 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 7rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main #inventory {
+  margin-top: 7rem;
+}
+
+body main #inventory .select-line-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main #inventory .select-line-1 > select {
+  margin-top: 1%;
+  margin-right: 1%;
+  border-color: black;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  padding: 0.5rem;
+  background-color: #F7F7FC;
+}
+
+body main #inventory .select-line-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main #inventory .select-line-2 > select {
+  margin-top: 1%;
+  margin-right: 1%;
+  border-color: black;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  padding: 0.5rem;
+  background-color: #F7F7FC;
+}
+
+body main .api-search {
+  padding: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4%;
+  border-bottom: 1px solid #E2E2EA;
+}
+
+body main .api-search .search {
+  color: white;
+  padding: 1%;
+  background-color: #F04461;
+  margin-left: 1%;
+}
+
+body main .api-search .total-cars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .api-search .total-cars .all {
+  color: #F04461;
+}
+
+body main .api-search .total-cars span {
+  color: #9A9AB0;
+  margin-left: 6%;
+}
+
+body main #res-metadata {
+  color: grey;
+  margin-top: 5%;
+}
+
+body main #news-letter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8rem;
+}
+
+body main #news-letter .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+}
+
+body main #news-letter .form div {
+  margin-right: 2%;
+}
+
+body main #news-letter .form .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+body main #news-letter .form .button button {
+  background-color: #F04461;
+  color: white;
+}
+
+body main #offer {
+  padding-top: 5%;
+}
+
+body main #offer .cards {
+  display: -ms-grid;
+  display: grid;
+  gap: 1%;
+}
+
+body main #offer .cards > div {
+  border-radius: 2%;
+}
+
+body main #offer .promo-card {
+  color: white;
+  height: 30rem;
+  background-color: #C5010A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 13%;
+}
+
+body main .customer-advisior {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20rem;
+  background-color: white;
+}
+
+body main .customer-advisior span {
+  opacity: 0.5;
+}
+
+body main .customer-advisior button {
+  color: white;
+  background-color: #F04461;
+  padding: 3%;
+}
+
+body footer {
+  margin-top: 10rem;
+}
+
+body footer #footer {
+  padding: 3%;
+  background-color: #C5010A;
+  min-height: 26rem;
+}
+
+body footer #footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer #footer .footer-content .section1 p {
+  color: white;
+  margin-top: 8%;
+}
+
+body footer #footer .footer-content .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer #footer .footer-content .section2 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer #footer .footer-content .section2 .menu a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+body footer #footer .footer-content .section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer #footer .footer-content .section3 .social-networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer #footer .footer-content .section3 .social-networks a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  body footer #footer .footer-content .section4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body footer #footer .footer-content .section4 div {
+  margin-top: 5%;
+}
+
+body footer #footer .footer-content .section4 .address {
+  color: white;
+}
+
+body footer #footer .footer-content .section4 .phone-number {
+  color: white;
+}
+
+body footer #footer .footer-content .section4 .mail {
+  color: white;
+}
+
+body footer #footer h5 {
+  color: white;
+  margin-top: 9%;
+}
+
+@media (max-width: 991px) {
+  body footer #footer h5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    font-size: 8px;
+  }
+}
